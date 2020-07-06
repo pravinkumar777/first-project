@@ -1,0 +1,49 @@
+body{
+    background: url(https://cdn.pixabay.com/photo/2014/05/03/01/03/macbook-336704_960_720.jpg)no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+}
+.black{
+    height: 400px;
+    background-color:black;
+    margin-top: 10%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-family: 'Yellowtail', cursive;
+    opacity: 0.7;
+}
+  @media(min-width:319px){
+      .black{
+         background-color: red;
+         }
+      h1{
+          font-size: 25px;
+      }  
+      h4{
+          font-size: 15px;
+      } 
+  }
+  @media(min-width:768px){
+    .black{
+          background-color:pink;
+          color: black;
+
+    }
+    h1{
+        font-size: 40px;
+
+    }
+    h4{
+        font-size: 30px;
+    }
+}
+@media(min-width:1024px){
+    .black{
+        background-color: blue;
+        color: white;
+    }
+}
+     
+    
